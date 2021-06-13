@@ -1,4 +1,4 @@
-export const getStaticPaths = asyng() => {
+export const getStaticPaths = async() => {
     const response = await fetch('https://jsonplaceholder.typicode.com/users')
     const data = await res.json()
 
